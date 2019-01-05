@@ -10,7 +10,6 @@
       :title="title"
       :dateField="dateField"
       :series="series"
-      :categoryAxis="categoryAxis"
       :navigator="navigator"
       :theme="'material'">
     </kendo-stockchart>
@@ -34,7 +33,17 @@ export default {
         closeField: 'close',
         color: '#00c853',
         downColor: '#d50000'
-      }]
+      }],
+       navigator: {
+        series: {
+          type: 'line',
+          field: 'close'
+        },
+        select: {
+          from: '2018/01/03',
+          to: '2018/01/31',
+        }
+      }
     }
   }
 }
@@ -45,3 +54,6 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+ 
+
