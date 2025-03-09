@@ -26,3 +26,11 @@ npm run dev
 # build for production with minification
 npm run build
 ```
+
+## Related Links
+
+- [Kendo UI Pie and Donut Chart for Vue](https://github.com/albertaw/kendoui-donutchart)
+- [Kendo UI Scatter and Bubble Chart for Vue](https://github.com/albertaw/kendoui-bubblechart)
+- [Kendo UI Bar Chart for Vue](https://github.com/albertaw/kendoui-barchart)
+- [Kendo UI Line Chart for Vue](https://github.com/albertaw/kendoui-linechart)
+- [Kendo UI Sparkline for Vue](https://github.com/albertaw/kendoui-sparkline)
